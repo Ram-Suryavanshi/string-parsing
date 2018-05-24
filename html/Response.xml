@@ -1,0 +1,56 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cln1="http://webservice.clean-address.com/CLNVerify/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <cln1:CLNVerifyResponse>
+         <cln1:Version/>
+         <cln1:ErrorCode>0</cln1:ErrorCode>
+         <cln1:ResultCount>1</cln1:ResultCount>
+         <cln1:Results>
+            <cln1:AddressOut>
+               <cln1:RecordID>0</cln1:RecordID>
+               <cln1:AddressKey>33445295999</cln1:AddressKey>
+               <cln1:AddressLine1>3955 Village Dr</cln1:AddressLine1>
+               <cln1:AddressLine5>Delray Beach, FL  33445-2959</cln1:AddressLine5>
+               <cln1:Address>3955 Village Dr</cln1:Address>
+               <cln1:City>Delray Beach</cln1:City>
+               <cln1:CityAbbreviation>Delray Beach</cln1:CityAbbreviation>
+               <cln1:State>FL</cln1:State>
+               <cln1:PostalCode>33445</cln1:PostalCode>
+               <cln1:PostalCodeFull>33445-2959</cln1:PostalCodeFull>
+               <cln1:PostalCodeExtended>2959</cln1:PostalCodeExtended>
+               <cln1:CountryCode>US</cln1:CountryCode>
+               <cln1:CountryName>United States</cln1:CountryName>
+               <cln1:Province>FL</cln1:Province>
+               <cln1:LastLine>Delray Beach, FL  33445-2959</cln1:LastLine>
+               <cln1:CarrierRoute>C028</cln1:CarrierRoute>
+               <cln1:DeliveryPointCheckDigit>998</cln1:DeliveryPointCheckDigit>
+               <cln1:DeliveryPoint>99</cln1:DeliveryPoint>
+               <cln1:CheckDigit>8</cln1:CheckDigit>
+               <cln1:CountyFIPS>12099</cln1:CountyFIPS>
+               <cln1:CountyName>Palm Beach</cln1:CountyName>
+               <cln1:TimezoneCode>05</cln1:TimezoneCode>
+               <cln1:TimezoneString>Eastern Time</cln1:TimezoneString>
+               <cln1:ErrorString>Suite/Apt Missing</cln1:ErrorString>
+               <cln1:StatusCode>V</cln1:StatusCode>
+               <cln1:DPVStatus>N1</cln1:DPVStatus>
+               <cln1:DPVErrorCode>N1</cln1:DPVErrorCode>
+               <cln1:Results>AC02,AC03,AE09,AS02,AS17</cln1:Results>
+               <cln1:CMRA>N</cln1:CMRA>
+               <cln1:AddressTypeCode>H</cln1:AddressTypeCode>
+               <cln1:AddressTypeString>Highrise</cln1:AddressTypeString>
+               <cln1:CongressionalDistrict>21</cln1:CongressionalDistrict>
+               <cln1:AutomationCode>D</cln1:AutomationCode>
+               <cln1:FacilityCode>P</cln1:FacilityCode>
+               <cln1:ZipTypeCode></cln1:ZipTypeCode>
+               <cln1:ParsedAddressRange>3955</cln1:ParsedAddressRange>
+               <cln1:ParsedAddressNumber>3955</cln1:ParsedAddressNumber>
+               <cln1:ParsedStreetName>Village</cln1:ParsedStreetName>
+               <cln1:ParsedStreetSuffix>Dr</cln1:ParsedStreetSuffix>
+               <cln1:SuggestionList>:3955::Village:Dr::;:3955::Village:Dr::Unit [A-D]</cln1:SuggestionList>
+               <cln1:Latitude>26.4560</cln1:Latitude>
+               <cln1:Longitude>-80.1045</cln1:Longitude>
+            </cln1:AddressOut>
+         </cln1:Results>
+      </cln1:CLNVerifyResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
